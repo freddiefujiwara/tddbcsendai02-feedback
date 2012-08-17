@@ -25,6 +25,6 @@
   "MIT"
   ],
   "dependencies": {
-  "moca":">=1.3.2"
+  "mocha":">=1.3.2"
   }
 }
