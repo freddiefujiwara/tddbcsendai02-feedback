@@ -1,3 +1,4 @@
+// commen
 var VendingMachine  = function(){
 	this.total = 0;
 };
