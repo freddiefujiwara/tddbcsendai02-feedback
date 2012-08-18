@@ -1,4 +1,4 @@
-if("undefined" !== require){
+if("undefined" !== typeof require){
 	var VendingMachine = require("../VendingMachine.js");
 	var expect = require("expect.js");
 }
