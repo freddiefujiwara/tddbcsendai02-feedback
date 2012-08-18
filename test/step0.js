@@ -1,5 +1,6 @@
 if("undefined" !== typeof require){
-	var VendingMachine = require("../VendingMachine.js");
+	var libpath = process.env['EXAMPLE_COV'] ? '../lib-cov/' : '../lib/';
+	var VendingMachine = require(libpath+"VendingMachine.js");
 	var expect = require("expect.js");
 }
 describe('Vending Machine Step0', function() {
