@@ -1,3 +1,7 @@
+if("undefined" !== require){
+	var VendingMachine = require("../VendingMachine.js");
+	var expect = require("expect.js");
+}
 describe('Vending Machine Step0', function() {
 	var vm;
 	beforeEach(function(){
