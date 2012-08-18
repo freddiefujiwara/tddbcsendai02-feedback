@@ -10,4 +10,5 @@ VendingMachine.prototype.refund = function(){
 	this.total = 0;
 	return change;
 };
-module.exports = VendingMachine;
+if("undefined" !== typeof module)
+	module.exports = VendingMachine;
