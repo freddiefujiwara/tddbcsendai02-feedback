@@ -8,7 +8,7 @@ coverage:
 	@rm -rf lib-cov
 coverage_html:
 	@jscoverage --no-highlight lib lib-cov
-	@EXAMPLE_COV=1 ./node_modules/.bin/mocha -R html-cov
+	@EXAMPLE_COV=1 ./node_modules/.bin/mocha -R html-cov > coverage.html
 	@rm -rf lib-cov
 setup:
 	@npm install
